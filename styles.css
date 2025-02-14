@@ -12,7 +12,7 @@ body {
         'wght' 400,
         'GRAD' 0,
         'opsz' 24;
-    font-size: 24px; /* Adjust size if needed */
+    font-size: 24px;
     display: inline-block;
     vertical-align: middle;
 }
@@ -91,8 +91,8 @@ body {
 
 .name-message {
     display: flex;
-    align-items: center; /* Aligns items vertically */
-    gap: 10px; /* Adds space between the name and button */
+    align-items: center;
+    gap: 10px;
 }
 
 nav ul {
@@ -153,8 +153,8 @@ nav li {
 
 .avatars {
     display: flex;
-    gap: 10px; /* Adjust space between images */
-    justify-content: center; /* Center images horizontally */
+    gap: 10px;
+    justify-content: center;
     margin-top: 10px;
 }
 
@@ -214,7 +214,7 @@ header img {
 
 .tabs {
     display: flex;
-    border-bottom: 3px solid #ddd; /* Light bottom border for structure */
+    border-bottom: 3px solid #ddd;
     padding-bottom: 5px;
 }
 
@@ -223,17 +223,17 @@ header img {
     border: none;
     padding: 10px 15px;
     font-size: 20px;
-    font-weight: normal; /* Default weight */
+    font-weight: normal;
     color: black;
     cursor: pointer;
     transition: opacity 0.3s ease, font-weight 0.3s ease;
-    opacity: 0.6; /* Inactive state */
+    opacity: 0.6;
     margin-top: 2%;
     transition: background 0.3s ease;
 }
 
 .tabs button.active {
-    font-weight: bold; /* Bold for active tab */
+    font-weight: bold;
     opacity: 1;
     position: relative;
 }
